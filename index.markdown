@@ -6,7 +6,6 @@ layout: home
 title: Terms
 ---
 
-# Terms
 ## Resource hog
 A computer program that takes up most of your resources.
 ![Resource Hog](imgs/rhog.jpg)
