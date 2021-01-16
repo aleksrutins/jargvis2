@@ -9,8 +9,7 @@ export default class Term extends TemplateElement {
     `
     template =`
 <div>
-    <hr>
-    <img src="${this.getAttribute("img")}" width="200">
+    <img src="${this.getAttribute("img")}" height="200">
     <h2>${this.getAttribute("name")}</h2>
     <p><slot></p>
     <hr>
