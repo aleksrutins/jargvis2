@@ -7,10 +7,13 @@ export default class Term extends TemplateElement {
         border-radius: 5px;
     }
     `
-    template =`<div>
-<img src="${this.getAttribute("img")}" width="200">
-<h2>${this.getAttribute("name")}</h2>
-<p><slot></p>
+    template =`
+<div>
+    <hr>
+    <img src="${this.getAttribute("img")}" width="200">
+    <h2>${this.getAttribute("name")}</h2>
+    <p><slot></p>
+    <hr>
 </div>`;
 }
 customElements.define('jargvis-term', Term);
